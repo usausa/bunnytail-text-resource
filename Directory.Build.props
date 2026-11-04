@@ -21,15 +21,15 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>1.19.0</Version>
+    <Version>0.0.1</Version>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <Authors>machi_pon</Authors>
-    <Copyright>Copyright (c) 2024 machi_pon</Copyright>
+    <Copyright>Copyright (c) 2026 machi_pon</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/usausa/bunnytail-member-accessor</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/usausa/bunnytail-text-resource</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 

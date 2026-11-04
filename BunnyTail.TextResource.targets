@@ -1,2 +1,25 @@
 <Project>
+
+  <ItemGroup>
+    <CompilerVisibleProperty Include="TextResourceAccessibility" />
+    <CompilerVisibleProperty Include="_TextResourceLanguages" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(EnableDefaultTextResourceItems)' != 'false'">
+    <TextResourceFile Include="**/*.texts.json" Exclude="$(DefaultItemExcludes);$(DefaultExcludesInProjectFolder)" />
+    <AdditionalFiles Include="@(TextResourceFile)" Exclude="@(AdditionalFiles)" />
+    <Content Remove="@(TextResourceFile)" />
+    <None Remove="@(TextResourceFile)" />
+    <None Include="@(TextResourceFile)" />
+    <Watch Include="@(TextResourceFile)" />
+    <UpToDateCheckInput Include="@(TextResourceFile)" />
+  </ItemGroup>
+
+  <Target Name="ComputeTextResourceLanguages"
+          BeforeTargets="GenerateMSBuildEditorConfigFileShouldRun">
+    <PropertyGroup Condition="'$(TextResourceLanguages)' != ''">
+      <_TextResourceLanguages>$([System.Text.RegularExpressions.Regex]::Replace('$(TextResourceLanguages)', '\s+', '').Replace(';', ','))</_TextResourceLanguages>
+    </PropertyGroup>
+  </Target>
+
 </Project>

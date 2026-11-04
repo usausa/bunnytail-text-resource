@@ -1,5 +1,9 @@
 <Solution>
+  <Folder Name="/Example/">
+    <Project Path="Develop/Develop.csproj" DefaultStartup="true" />
+  </Folder>
   <Folder Name="/Library/">
+    <Project Path="BunnyTail.TextResource.Generator/BunnyTail.TextResource.Generator.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
@@ -18,5 +22,6 @@
     <File Path="README.md" />
   </Folder>
   <Folder Name="/Tests/">
+    <Project Path="BunnyTail.TextResource.Tests/BunnyTail.TextResource.Tests.csproj" />
   </Folder>
 </Solution>

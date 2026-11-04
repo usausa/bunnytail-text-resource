@@ -1,0 +1,4 @@
+{
+  "HelloWorld": { "ja": "ハローワールド", "en": "Hello World" },
+  "ItemCount": { "ja": "{count} 件", "en": "{count} items" }
+}

@@ -1,0 +1,15 @@
+{
+  // Line comment
+  "$schema": "reserved",
+  /* Block comment */
+  "HelloWorld": { "ja": "ハローワールド", "en": "Hello World", "zh-hant": "哈囉世界" },
+  "ItemCount": { "ja": "{count} 件", "en": "{count} items", "zh-Hant": "{count} 個", "$comment": "Number of items" },
+  "Range": { "ja": "{min}〜{max}", "en": "{max} to {min}", "zh-Hant": "{min}-{max}" },
+  "Numbered": { "ja": "{1} {0}", "en": "{0} {1}", "zh-Hant": "{1} {0}" },
+  "Price": { "ja": "{value:N0} 円", "en": "{value,8:N2} yen", "zh-Hant": "{value} 元" },
+  "Escape": { "ja": "{{{value}}}", "en": "{{{value}}}", "zh-Hant": "{{{value}}}" },
+  "Brace": { "ja": "{{}}", "en": "{{}}", "zh-Hant": "{{}}" },
+  "Symbol": { "ja": "<&\"\\>\n", "en": "<&\"\\>\n", "zh-Hant": "\u0041" },
+  "Index": { "ja": "索引", "en": "Index", "zh-Hant": "索引" },
+  "Find": { "ja": "検索", "en": "Find", "zh-Hant": "尋找" },
+}

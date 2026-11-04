@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <CodeAnalysisRuleSet>..\Analyzers.ruleset</CodeAnalysisRuleSet>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TextResourceLanguages>ja;en</TextResourceLanguages>
+  </PropertyGroup>
+
+  <Import Project="..\BunnyTail.TextResource.targets" />
+
+  <ItemGroup>
+    <ProjectReference Include="..\BunnyTail.TextResource.Generator\BunnyTail.TextResource.Generator.csproj" OutputItemType="analyzer" ReferenceOutputAssembly="false" />
+  </ItemGroup>
+
+</Project>
