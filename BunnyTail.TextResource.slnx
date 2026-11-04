@@ -1,0 +1,22 @@
+<Solution>
+  <Folder Name="/Library/">
+  </Folder>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="AGENTS.md" />
+    <File Path="Analyzers.ruleset" />
+    <File Path="BunnyTail.TextResource.sln.DotSettings" />
+    <File Path="BunnyTail.TextResource.props" />
+    <File Path="BunnyTail.TextResource.targets" />
+    <File Path="CodeCoverage.runsettings" />
+    <File Path="Diagnostics.md" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Build.targets" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+  <Folder Name="/Tests/">
+  </Folder>
+</Solution>
