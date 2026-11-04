@@ -33,6 +33,7 @@
   <ItemGroup>
     <ProjectReference Include="..\BunnyTail.TextResource.Generator\BunnyTail.TextResource.Generator.csproj" OutputItemType="analyzer" ReferenceOutputAssembly="false" />
     <ProjectReference Include="..\BunnyTail.TextResource.Generator\BunnyTail.TextResource.Generator.csproj" ReferenceOutputAssembly="true" />
+    <ProjectReference Include="..\BunnyTail.TextResource.Tool\BunnyTail.TextResource.Tool.csproj" />
   </ItemGroup>
 
 </Project>

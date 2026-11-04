@@ -4,6 +4,7 @@
   </Folder>
   <Folder Name="/Library/">
     <Project Path="BunnyTail.TextResource.Generator/BunnyTail.TextResource.Generator.csproj" />
+    <Project Path="BunnyTail.TextResource.Tool/BunnyTail.TextResource.Tool.csproj" />
   </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />

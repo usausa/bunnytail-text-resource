@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "BunnyTail.TextResource.Tool": {
+      "commandName": "Project",
+      "commandLineArgs": "convert -p ..\\..\\..\\..\\Develop\\Resources"
+    }
+  }
+}

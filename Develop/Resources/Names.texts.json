@@ -1,0 +1,5 @@
+// Generated from Names.texts.csv
+{
+  "Label": { "ja": "ラベル", "en": "Label", "$comment": "Shown in the form" },
+  "Hello": { "ja": "こんにちは、\n{name}さん", "en": "Hello,\n{name}" }
+}

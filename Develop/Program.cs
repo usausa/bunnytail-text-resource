@@ -10,6 +10,7 @@ foreach (var culture in new[] { "ja-JP", "en-US", "fr-FR" })
     Console.WriteLine($"HelloWorld: {Messages.HelloWorld}");
     Console.WriteLine($"ItemCount: {Messages.ItemCount(3)}");
     Console.WriteLine($"GetText: {Messages.GetText(nameof(Messages.HelloWorld))}");
+    Console.WriteLine($"Csv: {Names.Label} {Names.Hello("Usa")}");
 }
 
 Console.ReadLine();

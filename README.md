@@ -72,3 +72,25 @@ The generated class cannot be used as `x:DataType` with the XAML source generato
 | `TextResourceLanguages` | | Languages separated by `;` |
 | `TextResourceAccessibility` | `internal` | Accessibility of the generated class (`public` or `internal`) |
 | `EnableDefaultTextResourceItems` | `true` | Include `**/*.texts.json` automatically |
+
+## CSV
+
+`BunnyTail.TextResource.Tool` converts `*.texts.csv` to `*.texts.json`. The CSV is the source, and the JSON is overwritten.
+
+```
+dotnet tool install -g BunnyTail.TextResource.Tool
+textresource convert -p Resources/Strings
+```
+
+```csv
+key,ja,en,$comment
+# Comment row
+HelloWorld,ハローワールド,Hello World,Shown on the home page
+ItemCount,{count} 件,{count} items,
+```
+
+- The first column is `key`. The other columns are languages and `$comment`. Other columns starting with `$` are ignored
+- For a single language, use `key,$text`
+- An empty cell means no value
+- The encoding is UTF-8. In Excel, save as `CSV UTF-8`
+- Excel changes values that look like numbers, dates or formulas when it opens a CSV (`1-2`, `001`, `-{0}`). Check the difference in the JSON

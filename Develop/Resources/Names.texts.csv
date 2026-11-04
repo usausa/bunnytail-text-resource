@@ -1,0 +1,6 @@
+﻿key,ja,en,$comment
+# Sample of the CSV
+Label,ラベル,Label,Shown in the form
+Hello,"こんにちは、
+{name}さん","Hello,
+{name}",
