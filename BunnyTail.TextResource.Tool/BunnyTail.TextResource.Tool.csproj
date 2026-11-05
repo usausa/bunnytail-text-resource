@@ -4,22 +4,19 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>net10.0</TargetFramework>
     <AssemblyName>textresource</AssemblyName>
-    <RollForward>Major</RollForward>
-    <DebugType>embedded</DebugType>
     <CodeAnalysisRuleSet>..\Analyzers.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>textresource</ToolCommandName>
-    <IncludeSymbols>false</IncludeSymbols>
   </PropertyGroup>
 
   <PropertyGroup>
     <PackageId>BunnyTail.TextResource.Tool</PackageId>
     <Title>BunnyTail.TextResource.Tool</Title>
     <Description>Text resource conversion tool.</Description>
-    <PackageTags>tool;resource;localization;csv</PackageTags>
+    <PackageTags>tool resource localization csv</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

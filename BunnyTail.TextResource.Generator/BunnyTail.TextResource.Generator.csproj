@@ -20,7 +20,7 @@
     <PackageId>BunnyTail.TextResource</PackageId>
     <Title>BunnyTail.TextResource</Title>
     <Description>Text resource source generator.</Description>
-    <PackageTags>generator;resource;localization;maui;blazor</PackageTags>
+    <PackageTags>sourcegenerator resource localization</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
