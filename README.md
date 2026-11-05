@@ -4,8 +4,7 @@
 
 ## What is this?
 
-Generate static classes from JSON text files for MAUI, Blazor and other C# 8.0 or later projects.
-
+Generate static classes from JSON text files for MAUI, Blazor and other C# 8.0 or later projects.  
 Texts are embedded in the code. The language is selected by `CultureInfo.CurrentUICulture`.
 
 ## Usage
@@ -18,11 +17,13 @@ Texts are embedded in the code. The language is selected by `CultureInfo.Current
   </PropertyGroup>
 ```
 
-The first language is the default language. Omit the property for a single language.
+The first language is the default language.  
+Omit the property for a single language.
 
 ### Text file
 
-Each `**/*.texts.json` file becomes a class named after the file. The namespace is the root namespace plus the folder.
+Each `**/*.texts.json` file becomes a class named after the file.  
+The namespace is the root namespace plus the folder.
 
 ```jsonc
 // Resources/Messages.texts.json
@@ -42,7 +43,7 @@ For a single language, values are strings.
 }
 ```
 
-Braces are written as `{{` and `}}`. `$comment` is added to the documentation comment.
+Braces are written as `{{` and `}}`.
 
 ### Source
 
@@ -62,8 +63,6 @@ var english = Messages.GetTextFor("HelloWorld", CultureInfo.GetCultureInfo("en")
 ```xml
 <Label Text="{x:Static strings:Messages.HelloWorld}" />
 ```
-
-The generated class cannot be used as `x:DataType` with the XAML source generator.
 
 ## Properties
 
