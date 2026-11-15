@@ -20,9 +20,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BunnyTail.DependencyInjection" Version="0.10.0" />
+    <PackageReference Include="BunnyTail.DependencyInjection" Version="1.0.0" />
     <PackageReference Include="System.CommandLine" Version="3.0.0" />
-    <PackageReference Include="Usa.Smart.CommandLine.Hosting" Version="2.20.0" />
+    <PackageReference Include="Usa.Smart.CommandLine.Hosting" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
